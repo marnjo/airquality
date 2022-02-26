@@ -1,0 +1,19 @@
+{
+  "name": "airquality",
+  "version": "1.0.0",
+  "description": "You have been given some data by the editorial department in the `./src/data` directory.",
+  "main": "index.js",
+  "scripts": {
+    "watch-js": "npx rollup -c --watch",
+    "serve": "web-dev-server --config web-dev-server.config.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-json": "^4.1.0",
+    "@web/dev-server": "^0.1.30",
+    "concurrently": "^7.0.0",
+    "rollup": "^2.68.0"
+  }
+}
